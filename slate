@@ -45,6 +45,7 @@ bind r:${hyper} relaunch
 
 # Binding to throw windows to other screens
 
-bind 1:${hyper}         throw 0 resize
-bind 2:${hyper}         throw 1 resize
-bind 3:${hyper}         throw 2 resize
+bind right:${hyper}     throw right resize
+bind left:${hyper}      throw left resize
+bind up:${hyper}        throw up resize
+bind down:${hyper}      throw down resize
